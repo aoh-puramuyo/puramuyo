@@ -1,5 +1,6 @@
     body {
         margin: auto;
+        background-color: rgb(36, 36, 36);
     }
 
     @font-face {
@@ -59,8 +60,10 @@
     }
 
     .puramuyo {
-        width: 12em;
-        margin-top: 4.4em;
+        width: 110em;
+        height: 10em;
+        display: grid;
+        overflow: hidden;
     }
 
     .asuna {
