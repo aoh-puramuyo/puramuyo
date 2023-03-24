@@ -1,66 +1,73 @@
     body {
         margin: auto;
     }
+
     @font-face {
         font-family: Raleway-italique;
         src: url(../Font/Raleway-Italic-VariableFont_wght.ttf);
-    }      
-    li a{
+    }
+
+    li a {
         font-family: raleway-italique;
         text-decoration: crimson;
     }
 
 
-    .nouveaute{
-        
-     }
-nav {
-    background-color: rgba(0, 0, 0, 0.884);
-}
-.navbar {
-    text-decoration: none;
-    position: absolute;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    box-sizing: border-box;
-    position: fixed;
-}
+    .nouveaute {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 1em;
+        width: 12em;
+    }
 
-.navbar a {
-    color: rgb(255, 0, 0);
-}
+    nav {
+        background-color: rgba(0, 0, 0, 0.884);
+    }
 
-.navbar .logo {
-    font-size: 2em;
-    font-weight: bold;
-}
+    .navbar {
+        text-decoration: none;
+        position: absolute;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        box-sizing: border-box;
+        position: fixed;
+    }
 
-.navbar .nav-links ul {
-    list-style: none;
-    display: flex;
-    text-decoration: none;
-}
+    .navbar a {
+        color: rgb(255, 0, 0);
+    }
 
-.navbar .nav-links ul li {
-    margin: 0 25px;
-}
+    .navbar .logo {
+        font-size: 2em;
+        font-weight: bold;
+    }
 
-.navbar .nav-links ul li .active a {
-    margin: 0 25px;
-}
+    .navbar .nav-links ul {
+        list-style: none;
+        display: flex;
+        text-decoration: none;
+    }
 
-.puramuyo{
-    width: 12em;
-    margin-top: 4.4em;
-}
+    .navbar .nav-links ul li {
+        margin: 0 25px;
+    }
 
-.asuna{
-    display: grid;
-    border-radius: 1rem;
-     overflow: hidden;
-    width: 12em;
-    margin-top: 41em;
-}
+    .navbar .nav-links ul li .active a {
+        margin: 0 25px;
+    }
+
+    .puramuyo {
+        width: 12em;
+        margin-top: 4.4em;
+    }
+
+    .asuna {
+        width: 12em;
+        margin-top: 41em;
+    }
+
+    .prix {}
+
+    .name {}
