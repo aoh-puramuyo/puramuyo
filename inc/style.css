@@ -10,6 +10,10 @@
         text-decoration: crimson;
     }
 
+
+    .nouveaute{
+        
+     }
 nav {
     background-color: rgba(0, 0, 0, 0.884);
 }
@@ -51,4 +55,12 @@ nav {
 .puramuyo{
     width: 12em;
     margin-top: 4.4em;
+}
+
+.asuna{
+    display: grid;
+    border-radius: 1rem;
+     overflow: hidden;
+    width: 12em;
+    margin-top: 41em;
 }
