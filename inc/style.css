@@ -71,6 +71,10 @@
         width: 12em;
         margin-top: 41em;
     }
+  ul{
+      display: flex;
+      flex-direction: row;
+    }
 
     .prix {}
 
