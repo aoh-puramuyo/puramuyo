@@ -61,14 +61,21 @@
         margin: 0 25px;
     }
 
-    .puramuyo {
+    .Banniere {
+      background-image: url('../img/Sources/puramuyo.jpeg');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+    }
+
+    /*.puramuyo {
         width: 110em;
         height: 10em;
         display: flex;
         overflow: hidden;
     }
 
-    /*.figurine {
+    .figurine {
         width: 12em;
         margin-top: 41em;
     }*/
