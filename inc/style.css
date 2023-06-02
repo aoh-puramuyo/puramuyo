@@ -80,13 +80,15 @@
         margin-top: 41em;
     }*/
     .nouveaute {
+      margin-right: auto;
+      width: 70%;
       display: flex;
       justify-content: flex-start;
       align-items: flex-start;
       gap: 20px;
       margin-top: 50px;
-      margin-left: 150px;
-      display: table-cell;
+      margin-left: auto;
+      flex-wrap: wrap;
     }
 
     .figurine {
@@ -215,17 +217,18 @@
       flex-direction: row;
       justify-content: center;
     }
-    
+
     .quatre-figurines li {
       flex-basis: calc(100% / 6 - 20px);
       margin: 10px;
     }
+
     .huit-figurines {
       display: flex;
       flex-direction: row;
       justify-content: center;
     }
-    
+
     .huit-figurines li {
       flex-basis: calc(100% / 6 - 20px);
       margin: 10px;
