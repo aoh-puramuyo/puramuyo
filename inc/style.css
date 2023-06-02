@@ -13,12 +13,18 @@
       text-decoration: crimson;
     }
 
+    .titre_news {
+      color: crimson;
+      margin-left: 15px;
+      text-decoration: underline;
+    }
 
     .nouveaute {
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 4px 4px 4px 4px rgba(170, 3, 3, 0.61);
       border-radius: 1em;
       width: 12em;
       justify-content: center;
+      margin-bottom: 50px;
     }
 
     nav {
@@ -68,17 +74,6 @@
       height: 425px;
     }
 
-    /*.puramuyo {
-        width: 110em;
-        height: 10em;
-        display: flex;
-        overflow: hidden;
-    }
-
-    .figurine {
-        width: 12em;
-        margin-top: 41em;
-    }*/
     .nouveaute {
       margin-right: auto;
       width: 70%;
