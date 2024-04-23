@@ -19,7 +19,7 @@ Cahier des charges :
 -Développement du site web en html/css animations en js pour le front , et du php pour le back 
 -Mise en place base de donnée dbeaver
 -Prévoir un système de paiement avec les banques / paypal / paylib…
--Mise en place d’un trello pour l’avancement du projet …(gratuit de pref)
+-Mise en place d’un trello pour l’avancement du projet …
 
 Structure du site : Bootstrap, Symfony (à déterminer)
 
